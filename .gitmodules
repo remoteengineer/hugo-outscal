@@ -1,3 +1,7 @@
 [submodule "themes/hugo-fresh"]
 	path = themes/hugo-fresh
 	url = https://github.com/lucperkins/hugo-fresh
+[submodule "public"]
+	path = public
+	url = git@github.com:remoteengineer/remoteengineer.github.io
+	branch = master
