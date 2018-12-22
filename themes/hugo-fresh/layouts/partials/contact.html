@@ -1,0 +1,46 @@
+{{- $contact := .Site.Params.contact }}
+{{- $title := index $contact "title" }}
+{{- $subtitle := index $contact "subtitle" }}
+{{- $action := index $contact "action" }}
+{{- $career := index $contact "career" }}
+
+<section class="section section-light-grey is-medium">
+    <div class="container">
+      <a id="contact"></a>
+      <div class="title-wrapper has-text-centered">
+        <h2 class="title is-2 is-spaced">{{ $title }}</h2>
+        <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
+        <div class="divider is-centered"></div>
+      </div>
+  
+      <div class="content-wrapper">
+        <div class="columns">
+          <div class="column is-6 is-offset-3">
+            <form method="POST" action="{{ $action }}" target="_blank">
+              <div class="columns is-multiline">
+                <div class="column is-12">
+                  <input class="input is-medium" type="text" placeholder="Full Name">
+                </div>
+                <div class="column is-12">
+                    <input class="input is-medium" type="text" placeholder="Company Name">
+                  </div>
+                <div class="column is-12">
+                  <input class="input is-medium" type="email" placeholder="Work Email">
+                </div>
+                <div class="column is-12">
+                  <textarea class="textarea" rows="4" type="text" placeholder="Leave a message"></textarea>
+                </div>
+                <div class="form-footer has-text-centered mt-10">
+                  <button class="button cta is-large primary-btn raised is-clear">Send Message</button>
+                </div>
+              </div>
+            </form>
+            <br><br><br>
+            <div class="column is-12">
+                <p class="subtitle is-12 is-muted">Click <a href="{{ $career }}">here</a> if you are interested in finding your next career opportunity with Outscal.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
