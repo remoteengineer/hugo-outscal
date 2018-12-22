@@ -16,22 +16,23 @@
       <div class="content-wrapper">
         <div class="columns">
           <div class="column is-6 is-offset-3">
-            <form method="POST" action="{{ $action }}" target="_blank">
+            <form method="POST" action="{{ $action }}">
               <div class="columns is-multiline">
                 <div class="column is-12">
-                  <input class="input is-medium" type="text" placeholder="Full Name">
+                  <input class="input is-medium" type="text" name="Full Name" placeholder="Full Name">
                 </div>
                 <div class="column is-12">
-                    <input class="input is-medium" type="text" placeholder="Company Name">
+                    <input class="input is-medium" type="text" name="Company Name" placeholder="Company Name">
                   </div>
                 <div class="column is-12">
-                  <input class="input is-medium" type="email" placeholder="Work Email">
+                  <input class="input is-medium" type="email" name="Work Email" placeholder="Work Email">
                 </div>
                 <div class="column is-12">
-                  <textarea class="textarea" rows="4" type="text" placeholder="Leave a message"></textarea>
+                  <textarea class="textarea" rows="4" type="text" name="Message" placeholder="Leave a message"></textarea>
                 </div>
                 <div class="form-footer has-text-centered mt-10">
-                  <button class="button cta is-large primary-btn raised is-clear">Send Message</button>
+                  <!-- <button class="button cta is-large primary-btn raised is-clear">Send Message</button> -->
+                  <input class="button cta is-large primary-btn raised is-clear" type="submit" value="Send Message">
                 </div>
               </div>
             </form>
