@@ -82,12 +82,12 @@ params:
   #       url: /
   section1:
     title: What We Do
-    subtitle: We take care of everything so you and your remote engineers can get to building awesome stuff in weeks not months!
+    subtitle: We take care of everything so you and your remote engineers can get to building awesome stuff in weeks, not months!
     # We believe best talent is distributed throughout the globe. why isn't your team?
     tiles:
-    - title: Large Talent Pool
-      icon: mouse-globe
-      text: India is a market with a large, growing technical talent base, a booming culture of technology and innovation. 
+    # - title: Large Talent Pool
+    #   icon: mouse-globe
+    #   text: India is a market with a large, growing technical talent base, a booming culture of technology and innovation. 
       # url: /
       # buttonText: Free trial
     - title: Elite Selection Process
@@ -102,24 +102,24 @@ params:
       # buttonText: Get started
     - title: Distributed Teams
       icon: mouse-globe
-      text: We help you setup best practices in to ensure uninterrupted communication across your team. 
+      text: We help you setup best practices to ensure seamless communication across your team. 
   section2:
     title: You're here because you want the best
     subtitle: And we know it
     features:
-    - title: Continous Learning and Developement
+    - title: Continuous Learning and Development
       text: We provide continuous training to keep our teams’ skills relevant. The more our developers perform for you, the faster we level them up.
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
     - title: Foster Partnerships
-      text: We develop relationships with top universities and techinical communities to ensure we hire the best of the best.
+      text: We develop relationships with top universities and technical communities to ensure we hire the best of the best.
       icon: doc-sync
     - title: Connecting Teams with Talent
       text: We take a data-driven approach to hiring, developing, and matching developers with our partners.
       icon: mobile-feed
   contact:
     title: "Drop us a line"
-    subtitle: "So you can focus on building better product"
+    subtitle: "So you can focus on building better products"
     action: https://formspree.io/mayank@outscal.com
     career: https://docs.google.com/forms/d/14JviPeV8ZlvTXGQFOY8OXuOrf1FcOqJZ2eo-vWooVRY/
   # section3:
